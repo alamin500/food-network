@@ -3,17 +3,49 @@ body{
     font-family: 'poppins', sans-serif;
 }
 header{
+    
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
      
+}
+.hero-title{
+    margin: 0;
+}
+.first{
+    margin-top: 40px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: 24px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
 }
 span{
     color: orange;
 }
 
 .flex1{
+  
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+   
+}
+.menu-item{
     display: flex;
-    padding-bottom: 150px;
+    /* align-items: center; */
+    width: 100% !important;
+    justify-content: space-between;
+    margin-left: 0 !important;
 }
 div{
     width: 50%;
@@ -27,6 +59,13 @@ div img{
 h1{
     font-size: 40px;
     
+    
+}
+.recipies{
+    padding-left: 0 !important;
+}
+.menu h1{
+    font-size: 32px;
 }
 a{
     text-decoration: none;
@@ -35,6 +74,8 @@ a{
     color: white;
     border-radius: 35px;
     box-shadow:black;
+    margin-top: 20px;
+    display: inline-block;
     
 }
 .section2{
@@ -42,14 +83,15 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 .about-me-img{
-    width: 95%;
-    padding-top: 5%;
+    width: 100%;
+    
 }
 .about-me{
     width: 60%;
-    padding-top: 5%;
     padding-right: 10%;
 }
 #recipies{
@@ -60,13 +102,21 @@ a{
     
 }
 .menu{
-    box-shadow: 0 0 black;
-    border: black;
+    /* box-shadow: 0 0 black; */
+    /* border:1px solid black; */
     margin: 50px;
-    border-image: red green;
+    /* border-image: red green; */
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 20px;
+    width: 33.33% !important;
+    overflow: hidden;
+    padding: 20px;
     
 }
-
+.menu img{
+    width: 100%;
+    
+}
 
 .section4{
     width: 92%;
@@ -95,4 +145,32 @@ footer{
 }
 strong{
     color:orange
+}
+.contract-item{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.contract{
+
+}
+.contract h1{
+    text-align: center;
+}
+input{
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+
+}
+.img-item{
+    width: 50%;
+}
+.form-item{
+    width: 50%;
+}
+.login{
+    margin: 0;
 }
